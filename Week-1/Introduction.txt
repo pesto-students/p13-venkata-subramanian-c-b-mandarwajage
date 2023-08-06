@@ -1,0 +1,20 @@
+
+protocol stack is used in web development having 5 layers such as 1)Application Layer :At the highest layer of the stack, you have the application layer protocols like HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure).
+2)Transport Layer:The transport layer ensures reliable data transmission between applications running on different devices. The most common protocol used in this layer is TCP (Transmission Control Protocol)
+3)Network Layer:The network layer is responsible for routing data packets across the network from the source to the destination
+4)Data Link Layer:The data link layer is responsible for establishing and maintaining a reliable link between two nodes on the same network
+5)Physical Layer:The physical layer deals with the physical transmission of data over the network medium (e.g., copper cables, fiber optics, wireless signals). 
+
+
+Hosting- Hosting is similar to the server which provides storage for web applications so we can access it through the internet.
+1)Shared hosting 
+2)VPS (Virtual Private Server)
+3)Dedicated hosting
+
+
+Scaling - 
+Whenever resources for web application becomes short due to high demand, the web application can crash. So to avoid that we can increase its performance by adding additional resources for the same servers like increasing more ram. This is vertical scaling.
+In another type of scaling, we can increase the number of servers rather than increase the resources of the same server. This is known as horizontal scaling. It is more effective as there are no limits on the number of servers we can attach. Also when there is no need. We can reduce the number for cost savings.
+
+What is SEO -
+It is the technique to make our web application such that it follows rules for search engines so that our web application can be rank in a better position and it is easily available for search engines so whenever a query related to our web application is searched, the search engine can show users about our web application
