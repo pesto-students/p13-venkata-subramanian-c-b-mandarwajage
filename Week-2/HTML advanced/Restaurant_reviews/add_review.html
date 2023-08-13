@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  
+    <body>
+        <header>
+            <h2> Restaurant Reviews</h2>
+            <a href="./index.html">Home</a> &nbsp; &nbsp;
+            <a href="./add_review.html">Add Review</a> &nbsp;&nbsp;
+            <a href="./about.html">About</a>
+            <br><hr>
+        </header>
+        <div class="form">
+          <form>
+            <div >
+              <label  for="Name">Name :</label>
+              <input  type="text" id="Name" name="Name"><br><br>
+            </div>
+
+            <div>
+              <label  for="Restaurant">Restaurant:</label>
+              <select id="Restaurant" name="Restaurant">
+                  <option value="Satwik">Satwik Misal</option>
+                  <option value="goodluck">Cafe Goodluck</option>
+              </select><br><br>
+            </div>
+        
+            <div class="form-row "></div>
+              <label  for="date">Date of visit :</label>
+              <input  type="date" id="date" name="date" required><br><br>
+            </div>
+        
+            <div class="form-row "></div>
+              <label  for="rating">Rating:</label>
+              <input  type="number" id="rating" name="rating" value="1" min="1" max="5"><br><br>
+            </div> 
+        
+            <div>
+              <label for="about">About:</label>
+              <textarea name="about" id="about" rows="10" cols="30"></textarea><br><br>
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+    </body>
+</html>

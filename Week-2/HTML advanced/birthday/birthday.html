@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birthday Message Form</title>
+  <style>
+    .form {
+      display: flex;
+      flex-direction: column; 
+      width: 300px;
+    }
+
+    .form-row {
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .label {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .input {
+      flex: 2;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="form">
+    <form>
+      <div class="form-row ">
+        <label class="label" for="message">Message</label>
+        <input class="input" type="text" id="message" name="message"><br>
+      </div>
+
+      <div class="form-row ">
+        <label class="label" for="email">Email Address?</label>
+        <input class="input" type="text" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Enter valid email"><br><br>
+      </div>
+
+      <div class="form-row "></div>
+        <label class="label" for="date">Date to Send ?</label>
+        <input class="input" type="date" id="date" name="date" required><br>
+      </div>
+
+      <div class="form-row ">
+        <label class="label" for="color">Message Color:</label>
+        <input type="color" id="color" name="color"><br>
+      </div>
+
+      <div class="form-row "></div>
+        <label class="label" for="blinkCount">Number of Blinks:</label>
+        <input class="input" type="number" id="blinkCount" name="blinkCount" value="0" min="0" max="10"><br>
+      </div> 
+
+      <div class="form-row ">
+        <label for="volume">Music Volume:</label>
+        <input type="range" id="volume" name="volume" value="20" min="0" max="50"><br>
+      </div>
+
+      <button type="submit">Send Birthday Message</button>
+    </form>
+  </div>
+</body>
+</html>
